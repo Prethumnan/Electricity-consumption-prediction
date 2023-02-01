@@ -11,16 +11,3 @@ Note that you cannot use future information to model past consumption. For examp
 
 
 
-The Evaluation criteria for this problem is RMSE.
-
-Data
-
-ColumnName	                  Description
-ID	                          Unique ID
-datetime	                    Datetime of record
-temperature	                  Temperature at that hour
-var1	                        Anonymized feature var1
-pressure	                    Pressure at that hour
-windspeed	                    Wind Speed at that hour
-var2	                        Anonymized feature var2
-electricity_consumption	      (target) Electrical consumption (in MWh)
